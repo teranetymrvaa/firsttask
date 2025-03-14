@@ -1,0 +1,165 @@
+/* reset css  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+/* nav start  */
+nav {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 90px;
+  background-color: white;
+}
+/* nav end  */
+.container {
+  font-weight: 800;
+  max-width: 1000px;
+  margin: 0 auto;
+  /* border: 2px solid black; */
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: px; */
+}
+.icon {
+  font-size: 15px;
+}
+.links {
+  font-weight: bold;
+  letter-spacing: 0.0625em;
+}
+
+.links {
+  display: flex;
+  gap: 23px;
+}
+.links a {
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+.links a:hover {
+  color: #6c757d;
+}
+
+.first-section {
+  position: relative;
+  height: 90vh;
+  width: 100%;
+}
+.shadow {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.502);
+}
+.herotext {
+  color: white;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.header-text {
+  font-size: 80px;
+  font-family: "Open Sans", sans-serif;
+}
+h6 {
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+.text {
+  margin: 0 auto;
+  max-width: 600px;
+  line-height: 1.2;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+  align-items: center;
+}
+.sectext1 {
+  /* display: flex;
+      flex-direction: column;
+      gap: 10px; */
+  max-width: 600px;
+  margin: auto;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 800;
+}
+h3 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+p {
+  margin-top: 10px;
+  font-size: 18px;
+  font-style: italic;
+  color: #6c757d;
+  margin-bottom: 30px;
+}
+a {
+  color: black;
+}
+/* .sectext2 {
+    max-width: 600px;
+  }
+  .sectext3 {
+    max-width: 600px;
+  }
+  .sectext4 {
+    max-width: 600px;
+  } */
+.button-overlay {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+button {
+  height: 50px;
+  width: 180px;
+  color: white;
+  letter-spacing: 0.0625em;
+  background-color: #0085a1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 6px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  border: none;
+}
+footer {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  font-size: 50px;
+}
+.footer {
+  margin-bottom: 35px;
+  margin-top: 15px;
+  font-size: 20px;
+  color: #6c757d;
+  text-align: center;
+}
